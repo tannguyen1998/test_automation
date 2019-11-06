@@ -1,0 +1,101 @@
+Index: tests/Front_office.robot
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- tests/Front_office.robot	(date 1568796115504)
++++ tests/Front_office.robot	(date 1568796115504)
+@@ -0,0 +1,13 @@
++*** Settings ***
++Documentation  Talk about what suite of tests does
++Resource  ../Resources/FrontOfficeApp.robot
++Resource  ../Resources/CommonWeb.robot
++Test Setup  Begin Web Test
++Test Teardown  End Web Test
++
++
++*** Variables ***
++${BROWSER} = edge
++
++
++*** Test Cases ***
+Index: Resources/FrontOfficeApp.robot
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Resources/FrontOfficeApp.robot	(date 1568789656817)
++++ Resources/FrontOfficeApp.robot	(date 1568789656817)
+@@ -0,0 +1,7 @@
++*** Settings ***
++Resource  ./PO/Landing.robot
++Resource  ./PO/TopNav.robot
++Resource  ./PO/Team.robot
++*** Variables ***
++
++*** Keywords ***
+Index: Resources/CommonWeb.robot
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Resources/CommonWeb.robot	(date 1568796366917)
++++ Resources/CommonWeb.robot	(date 1568796366917)
+@@ -0,0 +1,11 @@
++*** Settings ***
++Library  Selenium2Library
++*** Variables ***
++
++*** Keywords ***
++Begin Web test
++    open browser  about:blank  ${BROWSER}
++    #maximize browser window
++
++End Web Test
++    close all
+\ No newline at end of file
+Index: Resources/PO/Landing.robot
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Resources/PO/Landing.robot	(date 1568789710240)
++++ Resources/PO/Landing.robot	(date 1568789710240)
+@@ -0,0 +1,6 @@
++*** Settings ***
++Library  Selenium2Library
++
++*** Variables ***
++
++*** Keywords ***
+\ No newline at end of file
+Index: Resources/PO/Team.robot
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Resources/PO/Team.robot	(date 1568789710319)
++++ Resources/PO/Team.robot	(date 1568789710319)
+@@ -0,0 +1,6 @@
++*** Settings ***
++Library  Selenium2Library
++
++*** Variables ***
++
++*** Keywords ***
+\ No newline at end of file
+Index: Resources/PO/TopNav.robot
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Resources/PO/TopNav.robot	(date 1568789710331)
++++ Resources/PO/TopNav.robot	(date 1568789710331)
+@@ -0,0 +1,6 @@
++*** Settings ***
++Library  Selenium2Library
++
++*** Variables ***
++
++*** Keywords ***
+\ No newline at end of file

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.7.4 on win32)" generated="20191008 16:57:58.414" rpa="false">
+<suite id="s1" name="Cars" source="C:\development\robot-scripts\data-driven-ext-base\tests\cars.robot">
+<test id="s1-t1" name="Unregistered user should see correct error message at login">
+<kw name="Begin Web Test" library="Common" type="setup">
+<kw name="Open Browser">
+<arguments>
+<arg>about:blank</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20191008 16:57:58.515" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" starttime="20191008 16:57:58.515" endtime="20191008 16:57:58.515"></status>
+</kw>
+<status status="FAIL" starttime="20191008 16:57:58.511" endtime="20191008 16:57:58.515"></status>
+</kw>
+<kw name="End Web Test" library="Common" type="teardown">
+<kw name="Close All Browsers">
+<msg timestamp="20191008 16:57:58.519" level="FAIL">No keyword with name 'Close All Browsers' found.</msg>
+<status status="FAIL" starttime="20191008 16:57:58.519" endtime="20191008 16:57:58.519"></status>
+</kw>
+<status status="FAIL" starttime="20191008 16:57:58.515" endtime="20191008 16:57:58.519">No keyword with name 'Close All Browsers' found.</status>
+</kw>
+<status status="FAIL" starttime="20191008 16:57:58.511" endtime="20191008 16:57:58.519" critical="yes">Setup failed:
+No keyword with name 'Open Browser' found.
+
+Also teardown failed:
+No keyword with name 'Close All Browsers' found.</status>
+</test>
+<test id="s1-t2" name="Login with invalid password should show correct error message">
+<kw name="Begin Web Test" library="Common" type="setup">
+<kw name="Open Browser">
+<arguments>
+<arg>about:blank</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20191008 16:57:58.523" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" starttime="20191008 16:57:58.523" endtime="20191008 16:57:58.523"></status>
+</kw>
+<status status="FAIL" starttime="20191008 16:57:58.523" endtime="20191008 16:57:58.523"></status>
+</kw>
+<kw name="End Web Test" library="Common" type="teardown">
+<kw name="Close All Browsers">
+<msg timestamp="20191008 16:57:58.527" level="FAIL">No keyword with name 'Close All Browsers' found.</msg>
+<status status="FAIL" starttime="20191008 16:57:58.527" endtime="20191008 16:57:58.527"></status>
+</kw>
+<status status="FAIL" starttime="20191008 16:57:58.523" endtime="20191008 16:57:58.527">No keyword with name 'Close All Browsers' found.</status>
+</kw>
+<status status="FAIL" starttime="20191008 16:57:58.519" endtime="20191008 16:57:58.531" critical="yes">Setup failed:
+No keyword with name 'Open Browser' found.
+
+Also teardown failed:
+No keyword with name 'Close All Browsers' found.</status>
+</test>
+<test id="s1-t3" name="Login with blank email and password should show correct error message">
+<kw name="Begin Web Test" library="Common" type="setup">
+<kw name="Open Browser">
+<arguments>
+<arg>about:blank</arg>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20191008 16:57:58.535" level="FAIL">No keyword with name 'Open Browser' found.</msg>
+<status status="FAIL" starttime="20191008 16:57:58.535" endtime="20191008 16:57:58.535"></status>
+</kw>
+<status status="FAIL" starttime="20191008 16:57:58.531" endtime="20191008 16:57:58.535"></status>
+</kw>
+<kw name="End Web Test" library="Common" type="teardown">
+<kw name="Close All Browsers">
+<msg timestamp="20191008 16:57:58.539" level="FAIL">No keyword with name 'Close All Browsers' found.</msg>
+<status status="FAIL" starttime="20191008 16:57:58.539" endtime="20191008 16:57:58.539"></status>
+</kw>
+<status status="FAIL" starttime="20191008 16:57:58.535" endtime="20191008 16:57:58.539">No keyword with name 'Close All Browsers' found.</status>
+</kw>
+<status status="FAIL" starttime="20191008 16:57:58.531" endtime="20191008 16:57:58.539" critical="yes">Setup failed:
+No keyword with name 'Open Browser' found.
+
+Also teardown failed:
+No keyword with name 'Close All Browsers' found.</status>
+</test>
+<doc>Demonstrate a need for data-driven testing</doc>
+<status status="FAIL" starttime="20191008 16:57:58.422" endtime="20191008 16:57:58.539"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="3">Critical Tests</stat>
+<stat pass="0" fail="3">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="3" id="s1" name="Cars">Cars</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

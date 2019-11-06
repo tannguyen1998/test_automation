@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.7.4 on win32)" generated="20191001 16:45:22.825" rpa="false">
+<suite id="s1" name="Amazon" source="C:\development\robot-scripts\amazon\tests\amazon.robot">
+<test id="s1-t1" name="User must sign in to check out">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>http://www.amazon.com</arg>
+<arg>chrome</arg>
+</arguments>
+<msg timestamp="20191001 16:45:23.037" level="INFO">Opening browser 'chrome' to base url 'http://www.amazon.com'.</msg>
+<status status="PASS" starttime="20191001 16:45:23.036" endtime="20191001 16:45:30.406"></status>
+</kw>
+<kw name="Wait Until Page Contains" library="SeleniumLibrary">
+<doc>Waits until ``text`` appears on the current page.</doc>
+<arguments>
+<arg>Your Amazon.com</arg>
+</arguments>
+<status status="PASS" starttime="20191001 16:45:30.407" endtime="20191001 16:45:30.451"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>id=twotabsearchtextbox Ferrari458</arg>
+</arguments>
+<msg timestamp="20191001 16:45:30.451" level="FAIL">Keyword 'SeleniumLibrary.Input Text' expected 2 to 3 arguments, got 1.</msg>
+<status status="FAIL" starttime="20191001 16:45:30.451" endtime="20191001 16:45:30.451"></status>
+</kw>
+<doc>This is some basic info about the test</doc>
+<tags>
+<tag>smoke</tag>
+</tags>
+<status status="FAIL" starttime="20191001 16:45:23.035" endtime="20191001 16:45:30.452" critical="yes">Keyword 'SeleniumLibrary.Input Text' expected 2 to 3 arguments, got 1.</status>
+</test>
+<doc>This is some basic info about the whole suite</doc>
+<status status="FAIL" starttime="20191001 16:45:22.827" endtime="20191001 16:45:30.454"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1">smoke</stat>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="Amazon">Amazon</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

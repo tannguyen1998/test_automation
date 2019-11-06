@@ -1,0 +1,19 @@
+1572939924067	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\admin\\AppData\\Local\\Temp\\rust_mozprofileinPKeW"
+1572939925234	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1572939925235	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1572939925235	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1572939925236	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1572939927523	Marionette	INFO	Listening on port 62017
+1572939927693	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://img4.wsimg.com/starfield/duel/v2.5.7/duel.js?appid=O3BkA5J1#TzNCa0E1SjF2Mi41Ljdwcm9k, line 2: Error: Syntax or http error: https://img4.wsimg.com/wst/v7/WSB7_J_20150617_0953_WSB-Desig_7030/v2/designer/social/share/social.share.js
+JavaScript error: http://img4.wsimg.com/starfield/duel/v2.5.7/duel.js?appid=O3BkA5J1#TzNCa0E1SjF2Mi41Ljdwcm9k, line 2: Error: Syntax or http error: https://img4.wsimg.com/wst/v7/WSB7_J_20150617_0953_WSB-Desig_7030/v2/common/cookiemanager/cookiemanager.js
+1572939949140	Marionette	INFO	Stopped listening on port 62017
+[Parent 10644, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10104, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10104, Chrome_ChildThread] WARNING: pipe error: 1[Child 12048, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12048, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/[Parent 10644, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 11184, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1118[GPU 85
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
