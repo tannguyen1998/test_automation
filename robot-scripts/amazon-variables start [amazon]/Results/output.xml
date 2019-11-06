@@ -1,49 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.1.2 (Python 3.7.4 on win32)" generated="20191002 15:40:25.918" rpa="false">
-<suite id="s1" name="Amazon" source="c:\development\robot-scripts\amazon\tests\amazon.robot">
-<test id="s1-t1" name="User must sign in to check out">
-<kw name="Open Browser" library="SeleniumLibrary">
-<doc>Opens a new browser instance to the given ``url``.</doc>
-<arguments>
-<arg>http://www.amazon.com</arg>
-<arg>chrome</arg>
-</arguments>
-<msg timestamp="20191002 15:40:26.266" level="INFO">Opening browser 'chrome' to base url 'http://www.amazon.com'.</msg>
-<status status="PASS" starttime="20191002 15:40:26.265" endtime="20191002 15:40:34.069"></status>
+<robot generator="Robot 3.1.2 (Python 3.7.4 on win32)" generated="20191011 16:48:30.821" rpa="false">
+<suite id="s1" name="Amazon" source="C:\development\robot-scripts\amazon-variables start [amazon]\Tests\amazon.robot">
+<test id="s1-t1" name="Logged out user can search for products">
+<kw name="Common.Begin Web Test" type="setup">
+<msg timestamp="20191011 16:48:30.854" level="FAIL">No keyword with name 'Common.Begin Web Test' found.</msg>
+<status status="FAIL" starttime="20191011 16:48:30.854" endtime="20191011 16:48:30.855"></status>
 </kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>3s</arg>
-</arguments>
-<msg timestamp="20191002 15:40:37.092" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" starttime="20191002 15:40:34.090" endtime="20191002 15:40:37.092"></status>
+<kw name="Common.End Web Test" type="teardown">
+<msg timestamp="20191011 16:48:30.856" level="FAIL">No keyword with name 'Common.End Web Test' found.</msg>
+<status status="FAIL" starttime="20191011 16:48:30.856" endtime="20191011 16:48:30.856">No keyword with name 'Common.End Web Test' found.</status>
 </kw>
-<kw name="Close Browser" library="SeleniumLibrary">
-<doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20191002 15:40:37.101" endtime="20191002 15:40:40.837"></status>
-</kw>
-<doc>This is some basic info about the test</doc>
 <tags>
-<tag>smoke</tag>
+<tag>Smoke</tag>
 </tags>
-<status status="PASS" starttime="20191002 15:40:26.264" endtime="20191002 15:40:40.837" critical="yes"></status>
+<status status="FAIL" starttime="20191011 16:48:30.852" endtime="20191011 16:48:30.857" critical="yes">Setup failed:
+No keyword with name 'Common.Begin Web Test' found.
+
+Also teardown failed:
+No keyword with name 'Common.End Web Test' found.</status>
+</test>
+<test id="s1-t2" name="Logged out uesr can view a product">
+<kw name="Common.Begin Web Test" type="setup">
+<msg timestamp="20191011 16:48:30.860" level="FAIL">No keyword with name 'Common.Begin Web Test' found.</msg>
+<status status="FAIL" starttime="20191011 16:48:30.860" endtime="20191011 16:48:30.861"></status>
+</kw>
+<kw name="Common.End Web Test" type="teardown">
+<msg timestamp="20191011 16:48:30.862" level="FAIL">No keyword with name 'Common.End Web Test' found.</msg>
+<status status="FAIL" starttime="20191011 16:48:30.862" endtime="20191011 16:48:30.862">No keyword with name 'Common.End Web Test' found.</status>
+</kw>
+<tags>
+<tag>Smoke</tag>
+</tags>
+<status status="FAIL" starttime="20191011 16:48:30.858" endtime="20191011 16:48:30.863" critical="yes">Setup failed:
+No keyword with name 'Common.Begin Web Test' found.
+
+Also teardown failed:
+No keyword with name 'Common.End Web Test' found.</status>
+</test>
+<test id="s1-t3" name="Logged out user can add product to cart">
+<kw name="Common.Begin Web Test" type="setup">
+<msg timestamp="20191011 16:48:30.866" level="FAIL">No keyword with name 'Common.Begin Web Test' found.</msg>
+<status status="FAIL" starttime="20191011 16:48:30.866" endtime="20191011 16:48:30.866"></status>
+</kw>
+<kw name="Common.End Web Test" type="teardown">
+<msg timestamp="20191011 16:48:30.868" level="FAIL">No keyword with name 'Common.End Web Test' found.</msg>
+<status status="FAIL" starttime="20191011 16:48:30.868" endtime="20191011 16:48:30.868">No keyword with name 'Common.End Web Test' found.</status>
+</kw>
+<tags>
+<tag>Smoke</tag>
+</tags>
+<status status="FAIL" starttime="20191011 16:48:30.864" endtime="20191011 16:48:30.868" critical="yes">Setup failed:
+No keyword with name 'Common.Begin Web Test' found.
+
+Also teardown failed:
+No keyword with name 'Common.End Web Test' found.</status>
+</test>
+<test id="s1-t4" name="Logged out user must sign in tu check out">
+<kw name="Common.Begin Web Test" type="setup">
+<msg timestamp="20191011 16:48:30.872" level="FAIL">No keyword with name 'Common.Begin Web Test' found.</msg>
+<status status="FAIL" starttime="20191011 16:48:30.872" endtime="20191011 16:48:30.872"></status>
+</kw>
+<kw name="Common.End Web Test" type="teardown">
+<msg timestamp="20191011 16:48:30.874" level="FAIL">No keyword with name 'Common.End Web Test' found.</msg>
+<status status="FAIL" starttime="20191011 16:48:30.874" endtime="20191011 16:48:30.874">No keyword with name 'Common.End Web Test' found.</status>
+</kw>
+<tags>
+<tag>Smoke</tag>
+</tags>
+<status status="FAIL" starttime="20191011 16:48:30.870" endtime="20191011 16:48:30.875" critical="yes">Setup failed:
+No keyword with name 'Common.Begin Web Test' found.
+
+Also teardown failed:
+No keyword with name 'Common.End Web Test' found.</status>
 </test>
 <doc>This is some basic info about the whole suite</doc>
-<status status="PASS" starttime="20191002 15:40:25.920" endtime="20191002 15:40:40.839"></status>
+<status status="FAIL" starttime="20191011 16:48:30.823" endtime="20191011 16:48:30.876"></status>
 </suite>
 <statistics>
 <total>
-<stat pass="1" fail="0">Critical Tests</stat>
-<stat pass="1" fail="0">All Tests</stat>
+<stat pass="0" fail="4">Critical Tests</stat>
+<stat pass="0" fail="4">All Tests</stat>
 </total>
 <tag>
-<stat pass="1" fail="0">smoke</stat>
+<stat pass="0" fail="4">Smoke</stat>
 </tag>
 <suite>
-<stat pass="1" fail="0" id="s1" name="Amazon">Amazon</stat>
+<stat pass="0" fail="4" id="s1" name="Amazon">Amazon</stat>
 </suite>
 </statistics>
 <errors>
+<msg timestamp="20191011 16:48:30.849" level="ERROR">Error in file 'C:\development\robot-scripts\amazon-variables start [amazon]\Tests\amazon.robot': Resource file 'Resources\Common.robot' does not exist.</msg>
+<msg timestamp="20191011 16:48:30.850" level="ERROR">Error in file 'C:\development\robot-scripts\amazon-variables start [amazon]\Tests\amazon.robot': Resource file 'Resources\amazon.robot' does not exist.</msg>
 </errors>
 </robot>

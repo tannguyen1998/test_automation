@@ -4,7 +4,7 @@ Library  SeleniumLibrary
 ${LANDING_NAVIGATION_ELEMENT} =  id=mainNav
 *** Keywords ***
 Navigate To
-    go to  ${URL}
+    go to  ${BACK_OFFICE_URL}
 
 Verify Page Loaded
     wait until page contains element  ${LANDING_NAVIGATION_ELEMENT}

@@ -2,14 +2,14 @@
 Resource  ../Resources/PO/SignIn.robot
 
 *** Keywords ***
-Navigate to Sing In Page
+Navigate to Sign In Page
     SignIn.Navigate To
 
 Attempt Login
     [Arguments]  ${Credentials}
     SignIn.Enter Credentials  ${Credentials}
     SignIn.Click Submit
-    Sleep  3s
+    Sleep  5s
 
 Verify Login Page Error Message
     [Arguments]  ${ExpectedErrorMessage}
