@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.7.4 on win32)" generated="20191106 10:01:19.729" rpa="false">
+<suite id="s1" name="Tests" source="C:\development\test_automation\TabbedWindows\tests">
+<suite id="s1-s1" name="TabbedWindows" source="C:\development\test_automation\TabbedWindows\tests\TabbedWindows.robot">
+<test id="s1-s1-t1" name="testing framesch">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>${Browserch}</arg>
+</arguments>
+<msg timestamp="20191106 10:01:19.969" level="INFO">Opening browser 'chrome' to base url 'http://demo.automationtesting.in/Windows.html'.</msg>
+<status status="PASS" starttime="20191106 10:01:19.968" endtime="20191106 10:01:27.870"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20191106 10:01:27.872" endtime="20191106 10:01:32.069"></status>
+</kw>
+<kw name="TestSpeedTests">
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<arguments>
+<arg>1seconds</arg>
+</arguments>
+<status status="PASS" starttime="20191106 10:01:32.070" endtime="20191106 10:01:32.070"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://*[@id="Tabbed"]/a/button</arg>
+</arguments>
+<msg timestamp="20191106 10:01:32.070" level="INFO">Clicking element 'xpath://*[@id="Tabbed"]/a/button'.</msg>
+<status status="PASS" starttime="20191106 10:01:32.070" endtime="20191106 10:01:34.215"></status>
+</kw>
+<kw name="Select Window" library="SeleniumLibrary">
+<doc>DEPRECATED in SeleniumLibrary 4.0. , use `Switch Window` instead.</doc>
+<arguments>
+<arg>title=Sakinalium | Home</arg>
+</arguments>
+<status status="PASS" starttime="20191106 10:01:34.217" endtime="20191106 10:01:51.475"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://*[@id="container"]/header/div/div/div[2]/ul/li[4]/a</arg>
+</arguments>
+<msg timestamp="20191106 10:01:51.477" level="INFO">Clicking element 'xpath://*[@id="container"]/header/div/div/div[2]/ul/li[4]/a'.</msg>
+<status status="PASS" starttime="20191106 10:01:51.476" endtime="20191106 10:01:55.038"></status>
+</kw>
+<status status="PASS" starttime="20191106 10:01:32.069" endtime="20191106 10:01:55.039"></status>
+</kw>
+<status status="PASS" starttime="20191106 10:01:19.968" endtime="20191106 10:01:55.040" critical="yes"></status>
+</test>
+<test id="s1-s1-t2" name="testing framesff">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>${Browserff}</arg>
+</arguments>
+<msg timestamp="20191106 10:01:55.047" level="INFO">Opening browser 'ff' to base url 'http://demo.automationtesting.in/Windows.html'.</msg>
+<msg timestamp="20191106 10:01:55.050" level="INFO">Firefox driver log is always forced to to: C:\development\test_automation\TabbedWindows\Result\geckodriver-1.log</msg>
+<status status="PASS" starttime="20191106 10:01:55.046" endtime="20191106 10:02:04.595"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20191106 10:02:04.596" endtime="20191106 10:02:05.894"></status>
+</kw>
+<kw name="TestSpeedTests">
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<arguments>
+<arg>1seconds</arg>
+</arguments>
+<status status="PASS" starttime="20191106 10:02:05.896" endtime="20191106 10:02:05.897"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://*[@id="Tabbed"]/a/button</arg>
+</arguments>
+<msg timestamp="20191106 10:02:05.898" level="INFO">Clicking element 'xpath://*[@id="Tabbed"]/a/button'.</msg>
+<status status="PASS" starttime="20191106 10:02:05.897" endtime="20191106 10:02:08.431"></status>
+</kw>
+<kw name="Select Window" library="SeleniumLibrary">
+<doc>DEPRECATED in SeleniumLibrary 4.0. , use `Switch Window` instead.</doc>
+<arguments>
+<arg>title=Sakinalium | Home</arg>
+</arguments>
+<status status="PASS" starttime="20191106 10:02:08.431" endtime="20191106 10:02:21.570"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://*[@id="container"]/header/div/div/div[2]/ul/li[4]/a</arg>
+</arguments>
+<msg timestamp="20191106 10:02:21.571" level="INFO">Clicking element 'xpath://*[@id="container"]/header/div/div/div[2]/ul/li[4]/a'.</msg>
+<status status="PASS" starttime="20191106 10:02:21.570" endtime="20191106 10:02:25.347"></status>
+</kw>
+<status status="PASS" starttime="20191106 10:02:05.895" endtime="20191106 10:02:25.348"></status>
+</kw>
+<status status="PASS" starttime="20191106 10:01:55.044" endtime="20191106 10:02:25.350" critical="yes"></status>
+</test>
+<test id="s1-s1-t3" name="testing framesie">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>${Browserie}</arg>
+</arguments>
+<msg timestamp="20191106 10:02:25.361" level="INFO">Opening browser 'ie' to base url 'http://demo.automationtesting.in/Windows.html'.</msg>
+<status status="PASS" starttime="20191106 10:02:25.359" endtime="20191106 10:02:31.987"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20191106 10:02:31.988" endtime="20191106 10:02:33.005"></status>
+</kw>
+<kw name="TestSpeedTests">
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<arguments>
+<arg>1seconds</arg>
+</arguments>
+<status status="PASS" starttime="20191106 10:02:33.006" endtime="20191106 10:02:33.006"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://*[@id="Tabbed"]/a/button</arg>
+</arguments>
+<msg timestamp="20191106 10:02:33.006" level="INFO">Clicking element 'xpath://*[@id="Tabbed"]/a/button'.</msg>
+<status status="PASS" starttime="20191106 10:02:33.006" endtime="20191106 10:02:35.977"></status>
+</kw>
+<kw name="Select Window" library="SeleniumLibrary">
+<doc>DEPRECATED in SeleniumLibrary 4.0. , use `Switch Window` instead.</doc>
+<arguments>
+<arg>title=Sakinalium | Home</arg>
+</arguments>
+<status status="PASS" starttime="20191106 10:02:35.978" endtime="20191106 10:02:50.394"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://*[@id="container"]/header/div/div/div[2]/ul/li[4]/a</arg>
+</arguments>
+<msg timestamp="20191106 10:02:50.394" level="INFO">Clicking element 'xpath://*[@id="container"]/header/div/div/div[2]/ul/li[4]/a'.</msg>
+<status status="PASS" starttime="20191106 10:02:50.394" endtime="20191106 10:02:54.798"></status>
+</kw>
+<status status="PASS" starttime="20191106 10:02:33.005" endtime="20191106 10:02:54.798"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20191106 10:02:56.801" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20191106 10:02:54.800" endtime="20191106 10:02:56.801"></status>
+</kw>
+<kw name="Close All Browsers" library="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" starttime="20191106 10:02:56.802" endtime="20191106 10:03:06.040"></status>
+</kw>
+<status status="PASS" starttime="20191106 10:02:25.355" endtime="20191106 10:03:06.041" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20191106 10:01:19.756" endtime="20191106 10:03:06.047"></status>
+</suite>
+<status status="PASS" starttime="20191106 10:01:19.730" endtime="20191106 10:03:06.060"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0">Critical Tests</stat>
+<stat pass="3" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="3" fail="0" id="s1" name="Tests">Tests</stat>
+<stat pass="3" fail="0" id="s1-s1" name="TabbedWindows">Tests.TabbedWindows</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
