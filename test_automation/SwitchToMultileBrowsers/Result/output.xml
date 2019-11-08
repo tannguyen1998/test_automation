@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.7.4 on win32)" generated="20191106 10:24:10.975" rpa="false">
+<suite id="s1" name="Tests" source="C:\development\test_automation\SwitchToMultileBrowsers\tests">
+<suite id="s1-s1" name="SwitchToMultileBrowsers" source="C:\development\test_automation\SwitchToMultileBrowsers\tests\SwitchToMultileBrowsers.robot">
+<test id="s1-s1-t1" name="testing framesch">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>${Browserch}</arg>
+</arguments>
+<msg timestamp="20191106 10:24:11.206" level="INFO">Opening browser 'chrome' to base url 'https://www.google.com/'.</msg>
+<status status="PASS" starttime="20191106 10:24:11.205" endtime="20191106 10:24:17.388"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20191106 10:24:17.388" endtime="20191106 10:24:21.535"></status>
+</kw>
+<kw name="TestSpeedTests">
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<arguments>
+<arg>2seconds</arg>
+</arguments>
+<status status="PASS" starttime="20191106 10:24:21.536" endtime="20191106 10:24:21.536"></status>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>https://www.bing.com/</arg>
+<arg>${Browserch}</arg>
+</arguments>
+<msg timestamp="20191106 10:24:21.537" level="INFO">Opening browser 'chrome' to base url 'https://www.bing.com/'.</msg>
+<status status="PASS" starttime="20191106 10:24:21.537" endtime="20191106 10:24:29.351"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20191106 10:24:29.351" endtime="20191106 10:24:35.516"></status>
+</kw>
+<kw name="Switch Browser" library="SeleniumLibrary">
+<doc>Switches between active browsers using ``index_or_alias``.</doc>
+<arguments>
+<arg>1</arg>
+</arguments>
+<status status="PASS" starttime="20191106 10:24:35.516" endtime="20191106 10:24:35.517"></status>
+</kw>
+<kw name="Get Title" library="SeleniumLibrary">
+<doc>Returns the title of the current page.</doc>
+<assign>
+<var>${title1}</var>
+</assign>
+<msg timestamp="20191106 10:24:37.535" level="INFO">${title1} = Google</msg>
+<status status="PASS" starttime="20191106 10:24:35.518" endtime="20191106 10:24:37.535"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${title1}</arg>
+</arguments>
+<status status="PASS" starttime="20191106 10:24:37.536" endtime="20191106 10:24:37.537"></status>
+</kw>
+<kw name="Switch Browser" library="SeleniumLibrary">
+<doc>Switches between active browsers using ``index_or_alias``.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<status status="PASS" starttime="20191106 10:24:37.538" endtime="20191106 10:24:37.539"></status>
+</kw>
+<kw name="Get Title" library="SeleniumLibrary">
+<doc>Returns the title of the current page.</doc>
+<assign>
+<var>${title2}</var>
+</assign>
+<msg timestamp="20191106 10:24:39.555" level="INFO">${title2} = Bing</msg>
+<status status="PASS" starttime="20191106 10:24:37.539" endtime="20191106 10:24:39.555"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${title2}</arg>
+</arguments>
+<status status="PASS" starttime="20191106 10:24:39.556" endtime="20191106 10:24:39.557"></status>
+</kw>
+<status status="PASS" starttime="20191106 10:24:21.536" endtime="20191106 10:24:39.557"></status>
+</kw>
+<status status="PASS" starttime="20191106 10:24:11.205" endtime="20191106 10:24:39.559" critical="yes"></status>
+</test>
+<test id="s1-s1-t2" name="testing framesff">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>${Browserff}</arg>
+</arguments>
+<msg timestamp="20191106 10:24:39.569" level="INFO">Opening browser 'ff' to base url 'https://www.google.com/'.</msg>
+<msg timestamp="20191106 10:24:39.573" level="INFO">Firefox driver log is always forced to to: C:\development\test_automation\SwitchToMultileBrowsers\Result\geckodriver-1.log</msg>
+<status status="PASS" starttime="20191106 10:24:39.568" endtime="20191106 10:24:48.333"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20191106 10:24:48.335" endtime="20191106 10:24:50.607"></status>
+</kw>
+<kw name="TestSpeedTests">
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<arguments>
+<arg>2seconds</arg>
+</arguments>
+<status status="PASS" starttime="20191106 10:24:50.610" endtime="20191106 10:24:50.611"></status>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>https://www.bing.com/</arg>
+<arg>${Browserch}</arg>
+</arguments>
+<msg timestamp="20191106 10:24:50.612" level="INFO">Opening browser 'chrome' to base url 'https://www.bing.com/'.</msg>
+<status status="PASS" starttime="20191106 10:24:50.611" endtime="20191106 10:24:58.506"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20191106 10:24:58.507" endtime="20191106 10:25:04.638"></status>
+</kw>
+<kw name="Switch Browser" library="SeleniumLibrary">
+<doc>Switches between active browsers using ``index_or_alias``.</doc>
+<arguments>
+<arg>1</arg>
+</arguments>
+<status status="PASS" starttime="20191106 10:25:04.639" endtime="20191106 10:25:04.640"></status>
+</kw>
+<kw name="Get Title" library="SeleniumLibrary">
+<doc>Returns the title of the current page.</doc>
+<assign>
+<var>${title1}</var>
+</assign>
+<msg timestamp="20191106 10:25:06.657" level="INFO">${title1} = Google</msg>
+<status status="PASS" starttime="20191106 10:25:04.640" endtime="20191106 10:25:06.657"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${title1}</arg>
+</arguments>
+<status status="PASS" starttime="20191106 10:25:06.658" endtime="20191106 10:25:06.659"></status>
+</kw>
+<kw name="Switch Browser" library="SeleniumLibrary">
+<doc>Switches between active browsers using ``index_or_alias``.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<status status="PASS" starttime="20191106 10:25:06.660" endtime="20191106 10:25:06.661"></status>
+</kw>
+<kw name="Get Title" library="SeleniumLibrary">
+<doc>Returns the title of the current page.</doc>
+<assign>
+<var>${title2}</var>
+</assign>
+<msg timestamp="20191106 10:25:08.677" level="INFO">${title2} = Bing</msg>
+<status status="PASS" starttime="20191106 10:25:06.661" endtime="20191106 10:25:08.677"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${title2}</arg>
+</arguments>
+<status status="PASS" starttime="20191106 10:25:08.678" endtime="20191106 10:25:08.679"></status>
+</kw>
+<status status="PASS" starttime="20191106 10:24:50.609" endtime="20191106 10:25:08.680"></status>
+</kw>
+<status status="PASS" starttime="20191106 10:24:39.565" endtime="20191106 10:25:08.681" critical="yes"></status>
+</test>
+<test id="s1-s1-t3" name="testing framesie">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>${Browserie}</arg>
+</arguments>
+<msg timestamp="20191106 10:25:08.688" level="INFO">Opening browser 'ie' to base url 'https://www.google.com/'.</msg>
+<status status="PASS" starttime="20191106 10:25:08.687" endtime="20191106 10:25:12.864"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20191106 10:25:12.866" endtime="20191106 10:25:14.976"></status>
+</kw>
+<kw name="TestSpeedTests">
+<kw name="Set Selenium Speed" library="SeleniumLibrary">
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<arguments>
+<arg>2seconds</arg>
+</arguments>
+<status status="PASS" starttime="20191106 10:25:14.979" endtime="20191106 10:25:14.980"></status>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>https://www.bing.com/</arg>
+<arg>${Browserch}</arg>
+</arguments>
+<msg timestamp="20191106 10:25:14.981" level="INFO">Opening browser 'chrome' to base url 'https://www.bing.com/'.</msg>
+<status status="PASS" starttime="20191106 10:25:14.980" endtime="20191106 10:25:22.843"></status>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20191106 10:25:22.843" endtime="20191106 10:25:29.003"></status>
+</kw>
+<kw name="Switch Browser" library="SeleniumLibrary">
+<doc>Switches between active browsers using ``index_or_alias``.</doc>
+<arguments>
+<arg>1</arg>
+</arguments>
+<status status="PASS" starttime="20191106 10:25:29.003" endtime="20191106 10:25:29.004"></status>
+</kw>
+<kw name="Get Title" library="SeleniumLibrary">
+<doc>Returns the title of the current page.</doc>
+<assign>
+<var>${title1}</var>
+</assign>
+<msg timestamp="20191106 10:25:31.018" level="INFO">${title1} = Google</msg>
+<status status="PASS" starttime="20191106 10:25:29.005" endtime="20191106 10:25:31.018"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${title1}</arg>
+</arguments>
+<status status="PASS" starttime="20191106 10:25:31.019" endtime="20191106 10:25:31.020"></status>
+</kw>
+<kw name="Switch Browser" library="SeleniumLibrary">
+<doc>Switches between active browsers using ``index_or_alias``.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<status status="PASS" starttime="20191106 10:25:31.021" endtime="20191106 10:25:31.022"></status>
+</kw>
+<kw name="Get Title" library="SeleniumLibrary">
+<doc>Returns the title of the current page.</doc>
+<assign>
+<var>${title2}</var>
+</assign>
+<msg timestamp="20191106 10:25:33.036" level="INFO">${title2} = Bing</msg>
+<status status="PASS" starttime="20191106 10:25:31.022" endtime="20191106 10:25:33.036"></status>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${title2}</arg>
+</arguments>
+<status status="PASS" starttime="20191106 10:25:33.037" endtime="20191106 10:25:33.038"></status>
+</kw>
+<status status="PASS" starttime="20191106 10:25:14.978" endtime="20191106 10:25:33.038"></status>
+</kw>
+<kw name="Close All Browsers" library="SeleniumLibrary">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" starttime="20191106 10:25:33.040" endtime="20191106 10:25:57.326"></status>
+</kw>
+<status status="PASS" starttime="20191106 10:25:08.685" endtime="20191106 10:25:57.327" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20191106 10:24:11.002" endtime="20191106 10:25:57.335"></status>
+</suite>
+<status status="PASS" starttime="20191106 10:24:10.977" endtime="20191106 10:25:57.343"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0">Critical Tests</stat>
+<stat pass="3" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="3" fail="0" id="s1" name="Tests">Tests</stat>
+<stat pass="3" fail="0" id="s1-s1" name="SwitchToMultileBrowsers">Tests.SwitchToMultileBrowsers</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
