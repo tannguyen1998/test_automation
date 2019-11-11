@@ -1,0 +1,17 @@
+==============================================================================
+Tests                                                                         
+==============================================================================
+Tests.1Register                                                               
+==============================================================================
+RegistrationTest                                                      | FAIL |
+NoSuchWindowException: Message: Currently focused window has been closed.
+------------------------------------------------------------------------------
+Tests.1Register                                                       | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+==============================================================================
+Tests                                                                 | FAIL |
+1 critical test, 0 passed, 1 failed
+1 test total, 0 passed, 1 failed
+==============================================================================
+Output:  C:\development\test_automation\Automation\result\pabot_results\Tests.1Register\output.xml
